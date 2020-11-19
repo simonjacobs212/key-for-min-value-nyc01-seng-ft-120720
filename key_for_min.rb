@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       k = lowest_key
     end
   end
-  minimum_value
+  lowest_key
 end
 
 # prereqs: iterators, hashes, conditional logic
