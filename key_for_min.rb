@@ -2,9 +2,9 @@
 
 def key_for_min_value(name_hash)
   name_hash.map do |e|
-    if e <= 1 
+    if e <= 1
     end
-  end 
+  end
 end
 
 # prereqs: iterators, hashes, conditional logic
