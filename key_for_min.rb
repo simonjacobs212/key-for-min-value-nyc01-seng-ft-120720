@@ -2,7 +2,8 @@
 
 def key_for_min_value(name_hash)
   name_hash.map do |e|
-    e.min()
+    if e <= 1 
+    end
   end 
 end
 
