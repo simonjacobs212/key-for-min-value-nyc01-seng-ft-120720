@@ -2,9 +2,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.map do |k, v|
-    if v <= 1
-      k = name_hash
-      puts name_hash
+    
     end
   end
 end
