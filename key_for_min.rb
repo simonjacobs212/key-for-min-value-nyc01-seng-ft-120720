@@ -1,10 +1,13 @@
 
 
 def key_for_min_value(name_hash)
-  name_hash.map do |k, v|
-    
+  minimum_value = 1000
+  name_hash.each do |k, v|
+    if v < minimum_value
+      v = minimum_value
     end
   end
+  minimum_value
 end
 
 # prereqs: iterators, hashes, conditional logic
